@@ -1,0 +1,103 @@
+.distImgClass
+{
+    padding: 0;
+    margin: 0;
+}
+
+.distImgClass img
+{
+    transition: transform .2s;
+}
+
+.distImgClass:hover{
+    z-index: 2;
+}
+
+.distImgClass:hover img{
+    transform: scale(2); 
+  }
+ 
+#alappuzha
+{
+    width: 26%;
+    transform: translate(475px,1010px);
+}
+
+#ernakulam
+{
+    transform: translate(447px,822px);
+}
+
+#idukki
+{
+    width: 47%;
+    transform: translate(620px, 805px);
+}
+
+#kannur
+{
+    width: 42%;
+    transform: translate(115px,155px);
+}
+
+#kasargod
+{
+    width: 32%;
+}
+
+#kollam
+{
+    width: 55%;
+    transform: translate(545px,1225px);
+}
+
+#kottayam
+{
+    width: 40%;
+    transform: translate(510px,985px);
+    z-index: 3;
+}
+
+#kozhikode
+{
+    width: 40%;
+    transform: translate(215px,325px);
+}
+
+#malappuram
+{
+    width: 40%;
+    transform: translate(330px,405px);
+}
+
+#palakkad
+{
+    width: 48%;
+    transform: translate(410px,520px);
+}
+
+#pathanamthitta
+{
+    width: 43%;
+    transform: translate(575px,1120px);
+}
+
+#thiruvananthapuram
+{
+    width: 42%;
+    transform: translate(628px,1360px);
+}
+
+#thrissur
+{
+    width: 51%;
+    transform: translate(380px,670px);
+}
+
+#wayanad
+{
+    transform: translate(315px, 260px);
+}
+
+
+

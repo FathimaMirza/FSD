@@ -1,0 +1,360 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.homeBody{
+    background-size: cover;
+    height: 1690px;
+}
+
+.loginBody{
+    background-image: url("../backgrounds/n1.png");
+    background-size: contain;
+    background-color:#cffff7;
+    height: 100%;
+    width: auto;
+    position: relative;
+
+}
+
+
+.distBody{
+    background-image: url("../backgrounds/db.gif");
+    background-size: cover;
+    background-color:#cffff7;
+    height: auto;
+    width: auto;
+    padding :0;
+
+}
+
+.distBody h1{
+    text-align: center; 
+    margin-bottom: 80px;
+    font-size: 50px;
+}
+
+
+.loginDiv{
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 50px;
+    border: 2px solid black;
+    margin-top: 75px;
+    margin-left: 150px;
+    margin-right: auto;
+    width: 30%;
+    height: fit-content;
+}
+
+.signDiv{
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 50px;
+    border: 2px solid black;
+    margin-top: 75px;
+    margin-bottom: 80px;
+    margin-right: 150px;
+    margin-left: auto;
+    width: 30%;
+    height: fit-content;
+}
+
+.navElements{
+    font-size: 20px;
+}
+
+.searchBar{
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+.searchBox{
+    background-color: #ffffff;
+}
+
+.buttonGroup{
+    background-color: green;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    z-index: 100;
+}
+
+.dropdown-menu-animator{
+    animation: growDown 300ms ease-in-out forwards;
+    transform-origin: top center;
+}
+
+@keyframes growDown {
+    0% {
+        transform: scaleY(0);
+    }
+    80% {
+        transform: scaleY(1.1);
+    }
+    100% {
+        transform: scaleY(1);
+    }
+}
+
+.carousel-caption{
+    opacity:0.3;
+    transition:500ms ease-in-out;
+  }
+
+.carousel-item:hover .carousel-caption{
+    opacity:1;
+  }
+
+  .carousel-item img{
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .carCapDiv{
+      background: rgba(146, 146, 146, 0.7);
+      border-radius: 10px;
+  }
+
+.caroClass {
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    margin: auto;
+    margin-top: 55%;
+    padding: 50px;
+  }
+
+.distDiv{
+    padding: 20px;
+    height: 2000px;
+    width: auto;
+    left: 10px;
+    margin-top: 50px;
+    line-height: 0;
+    position: relative;
+    z-index: 0;
+}
+
+.distDiv div{
+    position: absolute;
+}
+
+.distDiv a{
+    display: inline;
+}
+
+.distDiv img{
+    width: 50%;
+}
+
+.districtBody{
+    
+    background-size: cover;
+    height: 2000px;
+}
+
+.headText{
+    position: absolute;
+    top: 30%;
+    margin-top: 0;
+    z-index: 2;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.headText h1{
+    font-size: 70px;
+    color: rgb(0,255,255,0.7);
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+.descDiv{
+    background: rgba(207, 255, 231, 0.8);
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    top: 45%;
+    margin: auto;
+    padding: 45px;
+    border-radius: 20px;
+    width: 85%;
+    height: fit-content
+}
+
+.descDiv p{
+    font-size: 21px;
+}
+
+.infoClass{
+    background: rgba(207, 255, 231, 0.9);
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    margin: auto;
+    margin-top: 1300px;
+    width: 85%;
+    height: fit-content;
+    padding: 30px;
+    border-radius: 20px;
+    opacity: 0.2;
+    transition: 200ms ease-in-out;
+}
+
+.infoClass p{
+    font-size: 21px;
+}
+
+.infoClass:hover{
+    opacity: 0.9;
+}
+
+.footerDiv{
+    background-color: #cffff7;
+    color: black;
+    height: 45px;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    font-family: fantasy;
+
+}
+
+.aboutImgDiv{
+    position: absolute;
+    top: 10%;
+    left: 60%;
+    margin: 20px;
+}
+
+.aboutImgDiv img{
+    width: 100%;
+    display: inline;
+}
+
+.aboutDiv{
+    background-color: rgb(255,255,255,0.8);
+    position: absolute;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.aboutDiv p{
+    font-size: 21px;
+    padding: 20px;
+}
+
+
+.fieldDiv{
+    padding-bottom: 15px;
+}
+
+#aboutLeft{
+    top: 6%;
+    right: 110%;
+    width: 130%;
+}
+
+#aboutBottom{
+    display: inline-block;
+    top: 100%;
+    right:20%;
+    width: 220%;
+}
+
+
+#rightAlign{
+    margin-left: 45%;
+    margin-right: 0;
+}
+
+
+#ktLogo{
+    height: 70px;
+    width: 120px;
+    margin-left: 20px;
+}
+
+#welKerala{
+    margin-top: 0;
+    top:10%;
+    left: 304px;
+    width: 60%;
+    height: auto;
+    position: absolute;
+    padding: 50px;
+}
+
+#caroId{
+    padding: 20px;
+    position: absolute;
+    left: 133px;
+    width: 1254px;
+    height: auto;
+    top: 70%;
+}
+
+#ekmCaro{
+    width: 65%;
+    height: auto;
+    transform: translate(0,-50px);
+    padding: 50px;
+}
+
+#navId{
+    padding: 0;
+    background-color:#cffff7;
+}
+
+
+.aboutDiv p{
+    text-align: justify;
+}
+
+#aboutBottom h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: brown;
+    text-align: center;
+}
+
+.p-box{
+    border: 3px solid green;
+    width: 32%;
+    float: left;
+    margin-left: 13px;
+    height: fit-content;
+    padding: 5px;
+    background-color: rgb(64, 206, 135);
+} 
+
+.p-box h3{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.p-box p{
+    line-height: 1.25em;
+    text-align: center;
+}
+
+.p-box a{
+    text-decoration: none;
+    font-size: 1.5em;
+    color:blue;
+    padding: 30%;
+
+}
+
+/* .p-box img{
+    height: 170px;
+    width: 376px;
+} */
+
+.p-box img{
+    height: fit-content;
+    width: fit-content;
+}
