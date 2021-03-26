@@ -18,7 +18,7 @@ function validate1(){
         phoneNumber.style.border="2px solid red";
         return false;
     }
-    else if(inputPass.value.length<8){
+    else if(inputPass.value.length<3){
         alert("Password too short");
         phoneNumber.style.border="2px solid red";
         return false;
@@ -40,5 +40,32 @@ function validate2(){
     }
     else{
         return true;
+    }
+}
+
+function passStrength()
+{
+    if (inputPass.value.length<=9)
+    {
+        inputPass.style.border = "red 3px solid";
+        passStrLabel.style.color = "red";
+        passStrLabel.innerHTML = "Weak Password!";
+    }
+    else if (inputPass.value.length>9 && inputPass.value.length<=12)
+    {
+        inputPass.style.border = "yellow 3px solid";
+        passStrLabel.style.color = "orange";
+        passStrLabel.innerHTML = "Medium Password";
+    }
+    else if (inputPass.value.length>12)
+    {
+        inputPass.style.border = "green 3px solid";
+        passStrLabel.style.color = "green";
+        passStrLabel.innerHTML = "Strong Password!";
+    }
+    else if(inputPass.value.length == 0)
+    {
+        inputPass.style.border = "";
+        passStrLabel.innerHTML = "";
     }
 }
